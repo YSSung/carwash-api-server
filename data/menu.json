@@ -1,0 +1,22 @@
+[
+  {
+    "no" : 1,
+    "url" : "image/choice.png",
+    "name" : "　내 관심 세차장"
+  },
+  {
+    "no" : 2,
+    "url" : "image/choicecar.png",
+    "name" : "　세차장 찾기"
+  },
+  {
+    "no" : 3,
+    "url" : "image/paper.png",
+    "name" : "　제보/등록 요청"
+  },
+  {
+    "no" : 4,
+    "url" : "image/share.png",
+    "name" : "　공유하기"
+  }
+]

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+	<ul id="list">
+		
+	</ul>
+
+	
+		<input id="washcenter" name="washcenter">
+		<button id="btn_add_washcenter">Add Car Wash Center</button>
+<script>
+$(function() {
+	console.log('document ready');
+	$.ajax('http://localhost:3001/v1/list/carwashInfo')
+		.done(function(res) {
+			console.log(res);
+			$(res).each(function(i, v) {
+				$('#list').append('<li>' + v.name + '</li>');
+			})
+		});
+
+		$.ajax('http://localhost:3001/v1/list/alarm')
+		.done(function(res) {
+			console.log(res);
+			$(res).each(function(i, v) {
+				$('#list').append('<li>' + v.name + '</li>');
+			})
+		});
+
+
+		$('#btn_add_washcenter').on('click', function() {
+			$.ajax({
+				type: 'POST',
+				url: 'http://localhost:3001/v1/add/carwashInfo',
+				data: {
+					name: $('#washcenter').val()
+				}
+			});	
+		});
+	
+
+
+});
+</script>
+</body>
+</html>

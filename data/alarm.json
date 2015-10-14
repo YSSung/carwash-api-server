@@ -1,0 +1,56 @@
+[
+  {
+    "no" : 1,
+    "url" : "image/addInformation.png",
+    "name" : "용우셀프세차장",
+    "add" : "새로운 사진이 추가 되었습니다.",
+    "date" : "1일전",
+    "who" : "사용자제보",
+    "address" : "용인시 기흥구 보라동"
+  },
+  {
+    "no" : 2,
+    "url" : "image/addInformation.png",
+    "name" : "센텀셀프세차타운",
+    "add" : "새로운 사진이 추가 되었습니다.",
+    "date" : "1일전",
+    "who" : "사용자제보",
+    "address" : "수영구 망미2동"
+  },
+    {
+    "no" : 3,
+    "url" : "image/addInformation.png",
+    "name" : "원셀프세차장",
+    "add" : "새로운 사진이 추가 되었습니다.",
+    "date" : "1일전",
+    "who" : "사용자제보",
+    "address" : "김해시 무계동"
+  },
+    {
+    "no" : 4,
+    "url" : "image/addInformation.png",
+    "name" : "태성실내셀프세차장",
+    "add" : "새로운 사진이 추가 되었습니다.",
+    "date" : "1일전",
+    "who" : "사용자제보",
+    "address" : "화성시 반송동"
+  },
+    {
+    "no" : 5,
+    "url" : "image/addInformation.png",
+    "name" : "대박셀프세차장",
+    "add" : "새로운 사진이 추가 되었습니다.",
+    "date" : "1일전",
+    "who" : "사장님요청",
+    "address" : "원주시 문막읍 문막리"
+  },
+    {
+    "no" : 6,
+    "url" : "image/addInformation.png",
+    "name" : "선진셀프세차장",
+    "add" : "새로운 사진이 추가 되었습니다.",
+    "date" : "1일전",
+    "who" : "사용자제보",
+    "address" : "보령시 궁촌동"
+  }
+]

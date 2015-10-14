@@ -5,7 +5,13 @@
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 </head>
 <body>
-	<ul id="list">
+	<h1>Carwash Center List</h1>
+	<ul id="carwash_list">
+		
+	</ul>
+
+	<h1>alarm List</h1>
+	<ul id="alarm_list">
 		
 	</ul>
 
@@ -19,15 +25,15 @@ $(function() {
 		.done(function(res) {
 			console.log(res);
 			$(res).each(function(i, v) {
-				$('#list').append('<li>' + v.name + '</li>');
+				$('#carwash_list').append('<li>' + v.name + '</li>');
 			})
 		});
 
-		$.ajax('http://localhost:3001/v1/list/alarm')
+	$.ajax('http://localhost:3001/v1/list/alarm')
 		.done(function(res) {
 			console.log(res);
 			$(res).each(function(i, v) {
-				$('#list').append('<li>' + v.name + '</li>');
+				$('#alarm_list').append('<li>' + v.name + '</li>');
 			})
 		});
 
